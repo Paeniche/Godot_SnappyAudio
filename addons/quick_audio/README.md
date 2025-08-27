@@ -2,8 +2,6 @@
 
 A fork of Godot_QuickAudio to add features that Paeniche thought would be useful
 
-## [Overview Video](https://www.youtube.com/watch?v=OEpfdmW6_s0)
-
 
 ## Installation
 
