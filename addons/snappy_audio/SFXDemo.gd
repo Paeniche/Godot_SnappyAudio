@@ -44,12 +44,12 @@ func _input(event):
 						if has_method("get_global_position"):
 							var pos = call("get_global_position")
 							if pos is Vector3:
-								player = Audio.play_sound_3d(sound, false)
+								player = Audio.play_sound_3d(sound, "Master", false)
 								player.unit_size = 1.0
 							elif pos is Vector2:
-								player = Audio.play_sound_2d(sound, false)
+								player = Audio.play_sound_2d(sound, "Master",false)
 								player.attenuation = 0.1
 						if player == null:
-							player = Audio.play_sound(sound, false)
+							player = Audio.play_sound(sound, "Master", false)
 						player.pitch_scale = 1.25
 						player.play()

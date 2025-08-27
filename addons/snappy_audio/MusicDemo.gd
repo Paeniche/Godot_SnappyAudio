@@ -46,12 +46,12 @@ func _input(event):
 					KEY_4:
 						# Crossfade
 						var old_player := music_player
-						music_player = Audio.play_sound(other_song, false)
+						music_player = Audio.play_sound(other_song, "Master", false)
 						Audio.cross_fade(old_player, music_player)
 						music_player.play()
 					KEY_5:
 						# Sequential fade
 						var old_player := music_player
-						music_player = Audio.play_sound(other_song, false)
+						music_player = Audio.play_sound(other_song, "Master", false)
 						Audio.sequential_fade(old_player, music_player)
 						music_player.play()
