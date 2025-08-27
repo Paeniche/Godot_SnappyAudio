@@ -2,7 +2,5 @@
 extends EditorPlugin
 
 func _enter_tree():
-  add_autoload_singleton("Audio", "./Audio.gd")
-
-func _exit_tree():
-  remove_autoload_singleton("Audio")
+	if not ProjectSettings.has_setting("autoload/Audio"):
+		add_autoload_singleton("Audio","res://addons/quick_audio/Audio.gd")
