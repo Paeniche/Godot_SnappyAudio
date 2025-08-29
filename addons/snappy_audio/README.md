@@ -1,6 +1,6 @@
 # ![Icon](https://raw.githubusercontent.com/BtheDestroyer/Godot_QuickAudio/1.0/addons/quick_audio/icon.svg) Godot_QuickAudio
 
-A fork of Godot_QuickAudio to add features that Paeniche thought would be useful
+A fork of [Godot_QuickAudio](https://github.com/Bryce-Dixon/Godot_QuickAudio) to add features that Paeniche thought would be useful
 
 
 ## Installation
